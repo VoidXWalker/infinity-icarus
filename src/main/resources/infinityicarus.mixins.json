@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.voidxwalker.infinityicarus.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "FireWorkItemMixin",
+    "ServerPlayerEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

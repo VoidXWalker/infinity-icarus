@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "infinityicarus",
+  "version": "1.0.1",
+  "name": "InfinityIcarus",
+  "description": "Icarus Mod for longer categories",
+  "authors": [
+    "Void_X_Walker"
+  ],
+  "contact": {
+    "repo": "https://github.com/VoidXWalker/InfinitiyIcarus"
+  },
+  "contributors": [
+    "DuncanRuns",
+    "JoJoe"
+  ],
+  "license": "All-Rights-Reserved",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.voidxwalker.infinityicarus.Main"
+    ]
+  },
+  "mixins": [
+    "infinityicarus.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.4"
+  }
+}
